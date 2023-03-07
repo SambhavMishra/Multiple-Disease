@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 #     diseases = data["prognosis"].unique()
 #     return diseases
 
-data = pd.read_csv("data\GeneralTraining.csv")
+data = pd.read_excel("data\GeneralTraining.xlsx")
 
 
 class find_diseases():
